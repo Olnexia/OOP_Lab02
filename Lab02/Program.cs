@@ -158,11 +158,11 @@ namespace Lab02
 			(int intMem, String strMem1, char charMem, String strMem2, ulong ulMem) tuple2 = (42, "String", 'c', "One more string", 352);
 			if (tuple1.CompareTo(tuple2) == 0)
 			{
-				Console.WriteLine("Картеж {0} идентичен картежу {1}", tuple1, tuple2);
+				Console.WriteLine("Кортеж {0} идентичен картежу {1}", tuple1, tuple2);
 			}
 			else
 			{
-				Console.WriteLine("Картеж {0} не идентичен картежу {1}", tuple1, tuple2);
+				Console.WriteLine("Кортеж {0} не идентичен картежу {1}", tuple1, tuple2);
 			}
 			//-------5--------//
 			(int max, int min, int sum,char firstLet) LocFun(int[] array,String strLoc)
